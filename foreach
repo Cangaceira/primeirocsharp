@@ -1,0 +1,14 @@
+static void Main(string[] args)
+        {
+            string[] letras = { "abc", "def", "ghi","jkl", "mno", "pqr","stu" };
+             
+            foreach(string caminho in letras)
+            {
+                Console.WriteLine(caminho);  
+                Console.WriteLine("-----Bloco array-----");
+            }
+
+
+            Console.WriteLine("Fim");
+            Console.ReadLine();
+        }
