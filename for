@@ -15,7 +15,7 @@
         {
             string[] letras = { "abc", "def", "ghi", "jkl", "mno", "pqr", "stu" };
 
-            for (int i = 6; i > 0; i--)
+            for (int i = letras.Length-1; i >= 0; i--)
             {
                 Console.WriteLine(letras[i]);
             }
